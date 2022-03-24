@@ -3,17 +3,17 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace lab1.Pages;
 
-public class IndexModel : PageModel
+public class ContactModel : PageModel
 {
-    private readonly ILogger<IndexModel> _logger;
+    private readonly ILogger<ContactModel> _logger;
 
-    public IndexModel(ILogger<IndexModel> logger)
+    public ContactModel(ILogger<ContactModel> logger)
     {
         _logger = logger;
     }
 
     public void OnGet()
     {
-
     }
 }
+
